@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-container {
+  background: #339af0; /* Blue background */
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #fff; /* Make text white for contrast */
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #fff; /* White text */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contact-text {
+  font-size: 18px;
+  color: #fff; /* White text */
+}
